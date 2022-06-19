@@ -25,21 +25,7 @@ class LoginViewController: UIViewController {
         let signInConfig = GIDConfiguration(clientID: "653500618629-i3qbn1kvgeui7dc8crmu2p2hjo84r8pl.apps.googleusercontent.com")
         GIDSignIn.sharedInstance.signIn(with: signInConfig, presenting: self) { user, error in
             guard error == nil else { return }
-                
-            /*
-             user.authentication.do { authentication, error in
-             guard error == nil else {
-             print(error.debugDescription)
-             return
-             }
-             guard let authentication = authentication else {
-             print("Authentication failed.  @LoginViewController:googleSignIn()")
-             return
-             
-             }
-            */
-            
-            
+ 
             self.getScopes() {
             
                 // If sign in succeeded, display the app's main content View.

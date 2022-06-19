@@ -11,15 +11,6 @@ import CoreData
 
 class LoginViewController: UIViewController {
     
-    var googleSignIn = GIDSignIn.sharedInstance
-    let managedObjectContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-    
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
-    
     @IBAction func googleSignIn(_ sender: Any) {
         // google sign in
         let signInConfig = GIDConfiguration(clientID: "653500618629-i3qbn1kvgeui7dc8crmu2p2hjo84r8pl.apps.googleusercontent.com")

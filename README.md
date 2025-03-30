@@ -1,30 +1,40 @@
-# To-do List iOS Application
-Showcases fundamental iOS application features, including the use of CoreData, Camera/Photo Library, MapKit, and web APIs and uses MVC (Model-View-Controller) Architecture.
+# 📌 To-Do List iOS Application  
+This project showcases fundamental iOS features, including CoreData, Camera/Photo Library, MapKit, and web API integration, all implemented using the Model-View-Controller (MVC) architecture.  
 
-## Description
+## 📖 Description
 
-Offers users the ability to view and manage their Google Task Lists, associate an image with a Task List, and interact with a dynamic map. Users must sign in to their Google account and link it to the app before gaining access to the full app. Upon successful sign-in, a tab view is displayed containing three tabs: **Account**, **To-do List**, and **Map**. 
+<img src="https://user-images.githubusercontent.com/107507852/175116424-398495ba-43f8-4ea0-bb88-4ab87120095d.png" align="right" width="226" height="464">
 
-**NOTE:** Only registered Google accounts for testing can be linked, preventing access to the full app.  
-## Features
-<img align="right" src="https://user-images.githubusercontent.com/107507852/175116424-398495ba-43f8-4ea0-bb88-4ab87120095d.png">
+This app allows users to:  
+- View and manage their **Google Task Lists**  
+- Associate images with Task Lists using the **Camera/Photo Library**  
+- Interact with a **dynamic map** for location-based features
 
-### Account
-- View Google profile name, email, and profile image
-- Sign out of Google account and app 
-- Disconnect linked Google account
+Users must sign in with their **Google account** and link it to the app to access all functionalities. Upon successful authentication, a **tabbed interface** is displayed with three main sections:  
+1. **Account** – Manage user profile details  
+2. **To-Do List** – View and organize tasks  
+3. **Map** – Explore location-based features  
 
-### To-do List
-- View Google Task Lists, Tasks, and Subtasks
-- Add/Remove Tasks and Subtasks
-- Choose an image from Camera/Photo Library to display with a Task List (stored in CoreData)
+🔹 **Note:** Only registered **test Google accounts** can be linked, restricting full access to authorized testers.  
 
-### Map
-- View and interact with a dynamic map (opens showing current location)
-- Search for nearby places and view them on the map
+<br/><br/><br/>
 
-<br/>
+## 🚀 Features  
 
-## External Packages & Web Services
-- [GoogleSignIn](https://github.com/google/GoogleSignIn-iOS/)
-- [Google Tasks API (REST)](https://developers.google.com/tasks/reference/rest) 
+### 🔑 **Account**  
+✔ View **Google profile** details (name, email, profile image)  
+✔ **Sign out** of Google and the app  
+✔ **Disconnect** linked Google account  
+
+### ✅ **To-Do List**  
+✔ View **Google Task Lists**, Tasks, and Subtasks  
+✔ **Add/Remove** Tasks and Subtasks  
+✔ Attach an image to a Task List using **Camera/Photo Library** (stored in CoreData)  
+
+### 🗺 **Map**  
+✔ View and interact with a **dynamic map** (opens at the user's current location)  
+✔ **Search for nearby places** and display them on the map  
+
+## 🔗 External Packages & Web Services  
+- **[GoogleSignIn](https://github.com/google/GoogleSignIn-iOS/)** – User authentication via Google  
+- **[Google Tasks API (REST)](https://developers.google.com/tasks/reference/rest)** – Fetch and manage task data  
